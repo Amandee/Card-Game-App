@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#17df0d">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/kingdom_title"
+        android:text="Kingdom"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kingdom_cards_row1"
+        android:layout_below="@+id/kingdom_title"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Cellar"
+            android:textSize="9sp"
+            android:layout_weight="1"
+            android:id="@+id/kingdom_card_1"
+            android:layout_height="40dp"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Moat"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:id="@+id/kingdom_card_2"
+            android:layout_height="40dp"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Village"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_3"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Workshop"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:id="@+id/kingdom_card_4"
+            android:onClick="goToCurrentlySelected"
+            android:layout_height="40dp"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Woodcutter"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_5"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kingdom_cards_row1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/kingdom_cards_row2">
+        <Button
+            android:text="Smithy"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_6"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Remodel"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_7"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Militia"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_8"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Market"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_9"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+        <Button
+            android:text="Mine"
+            android:textSize="8sp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/kingdom_card_10"
+            android:onClick="goToCurrentlySelected"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+</RelativeLayout>

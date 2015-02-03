@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dominion App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_screen">Dominion</string>
+    <string name="rules_text">Rules</string>
+    <string name="playgame_text">Play Game</string>
+    <string name="go_to_buy">Go To \n Buy Phase</string>
+    <string name="num_actions_text">#Actions : \t</string>
+
+</resources>

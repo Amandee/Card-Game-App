@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="#fa6a6a" >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coins"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
+        android:id="@+id/coin_title"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_below="@id/coin_title"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/copper_card"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Copper"
+            android:onClick="goToCurrentlySelected"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/silver_card"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:onClick="goToCurrentlySelected"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/gold_card"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:onClick="goToCurrentlySelected"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
